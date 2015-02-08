@@ -45,12 +45,16 @@ a:hover {
 }
 
 .hero ul:hover {
-	background-color: #9a9a9a
+	background-color: #9d9d9d;
 }
 
 .hero li {
 	text-align: left;
 	margin-left: 12px;
+}
+
+.hero li:hover ul {
+	font-color: #ffffff !important;
 }
 
 .hero button {
@@ -86,7 +90,8 @@ a:hover {
 }
 
 .botlist li:hover {
-	background-color: #9a9a9a
+	background-color: #9d9d9d;
+	color: #ffffff;
 }
 
 .botlist li img {
