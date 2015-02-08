@@ -77,12 +77,12 @@ a:hover {
 .botlist {
 	text-align: left;
 	list-style: none;
-	font-size: 2em;
+	font-size: 1.5em;
 	border: none;
 }
 
 .botlist li {
-	padding: 8px;
+	padding: 12px;
 	/*border-style: solid;*/
 	border-color: #bbbbbb;
 	border-width: 1px;
@@ -96,8 +96,8 @@ a:hover {
 
 .botlist li img {
 	float: auto;
-	width: 75px;
-	height: 75px;
+	width: 60px;
+	height: 60px;
 	border-radius: 100%;
 	vertical-align: middle;
 	-webkit-border-radius: 100%;
