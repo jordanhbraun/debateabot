@@ -1,0 +1,129 @@
+/*Custom Styles*/
+
+body {
+	background-color: #f9f9f9;
+}
+
+h1,h2,h3,p, li {
+	color: #000000;
+}
+
+a {
+  text-decoration: none }
+a:hover {
+  background-color: black; }
+
+.logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px }
+
+
+.hero {
+	position: relative;
+ 	width: 80%;
+	margin: 0 auto;
+	color: #000000;
+	padding-top: 24px;
+	padding-bottom: 4%;
+}
+
+.hero h1, h2, h3, p {
+	text-align: center;
+}
+
+.hero ul {
+	text-align: center;
+	list-style: none;
+	font-size: 1.5em;
+	padding: 8px;
+	/*border-style: solid;*/
+	border-color: #bbbbbb;
+	border-width: 1px;
+	border-radius: 16px;
+}
+
+.hero ul:hover {
+	background-color: #9a9a9a
+}
+
+.hero li {
+	text-align: left;
+	margin-left: 12px;
+}
+
+.hero button {
+	display: block;
+	margin:0 auto;
+	margin-top: 28px;
+	margin-bottom: 20px;
+}
+
+.hero li img {
+	float: auto;
+	width: 40px;
+	height: 40px;
+	border-radius: 100%;
+	vertical-align: middle;
+	-webkit-border-radius: 100%;
+	-moz-border-radius: 125px;
+}
+
+.botlist {
+	text-align: left;
+	list-style: none;
+	font-size: 1.75em;
+	border: none;
+}
+
+.botlist li {
+	padding: 8px;
+	/*border-style: solid;*/
+	border-color: #bbbbbb;
+	border-width: 1px;
+	border-radius: 8px;
+}
+
+.botlist li:hover {
+	background-color: #9a9a9a
+}
+
+.botlist li img {
+	float: auto;
+	width: 60px;
+	height: 60px;
+	border-radius: 100%;
+	vertical-align: middle;
+	-webkit-border-radius: 100%;
+	-moz-border-radius: 125px;
+}
+
+.stickynav {
+	min-height: 112px;
+}
+
+.stickynav h1, h2, h3, p {
+	text-align: center;
+}
+
+.stickynav button {
+	display: block;
+	margin:0 auto;
+	margin-bottom: 24px
+}
+
+#nav.affix {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding-top: 18px;
+    background-color: #f9f9f9
+}
+
+
+
+input[type="checkbox"],
+input[type="radio"] {
+  margin-right:12px;
+  margin-left: 24px; }
